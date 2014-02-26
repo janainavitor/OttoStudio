@@ -1,0 +1,204 @@
+/*CSS GERAL =========================*/
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+body{
+  background: url(../imagens/bg.jpg) repeat;
+}
+/*CSS HEADER =========================*/
+#header{
+  height: 180px;
+}
+.logo{
+  background: url(../imagens/logo.png);
+  width: 275px;
+  height: 160px;
+  float: left;
+  margin: 0 0 0 340px;
+}
+.ico-pt{
+  background: url(../imagens/sprites-ico.png) no-repeat -14px -4px;
+  width: 29px;
+  height: 31px;
+  margin: 50px 0 0 -605px;
+  float: left;
+}
+.ico-en{
+  background: url(../imagens/sprites-ico.png) no-repeat -45px -4px;
+  width: 43px;
+  height: 31px;
+  float: left;
+  margin: 50px 0 0 -572px;
+}
+.facebook{
+  background: url(../imagens/sprites-ico.png) no-repeat -90px -4px;
+  width: 29px;
+  height: 30px;
+  float: right;
+  margin: -110px 95px 0 140px;
+}
+.twitter{
+  background: url(../imagens/sprites-ico.png) no-repeat -125px -4px;
+  width: 29px;
+  height: 30px;
+  float: right;
+  margin: -110px 57px 0 115px;
+}
+.pinterest{
+  background: url(../imagens/sprites-ico.png) no-repeat -158px -4px;
+  width: 29px;
+  height: 30px;
+  float: right;
+  margin: -110px 20px 0 115px;
+}
+.menu-esquerdo{
+  width: 320px;
+  border-top: 4px #888888 double;
+  border-bottom: 4px #888888 double;
+  margin: -66px 640px 0 0;
+  float: right;
+  height: 35px;
+}
+.menu-esquerdo li{
+  display: inline;
+}
+.menu-esquerdo li a{
+  font: 18px 'futuraextendedregular';
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 34px;
+}
+.menu-esquerdo li a:hover{
+  color: #dd4911;
+}
+.menu-direito{
+  width: 320px;
+  border-top: 4px #888888 double;
+  border-bottom: 4px #888888 double;
+  margin: -66px 0 0 0;
+  float: right;
+  height: 35px;
+}
+.menu-direito li{
+  display: inline;
+}
+.menu-direito li a{
+  font: 18px 'futuraextendedregular';
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 9px;
+  line-height: 38px;
+}
+.menu-direito li a:hover{
+  color: #dd4911;
+}
+/*CSS DESTAQUE =========================*/
+#destaque h2{
+  font: 45px 'futura_lightregular';
+  color: #000000;
+}
+.strong{
+  font: 45px 'futuraextendedregular'; 
+}
+#destaque p{
+  color: #ffffff;
+  background-color: #000000;
+  font: 26px/36px 'futura_oblique';
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+/*CSS MAIS-DESTAQUE =========================*/
+.titulo-mais-destaques{
+  background: url(imagens/mais-destaques.png);
+  width: 960px;
+  height: 50px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.lista-mais-destaques li{
+  display: inline;
+  float: left;
+  width: 221px;
+  height: 240px;
+  padding: 9px;
+}
+.lista-mais-destaques li p{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font: 14px/16px 'Myriad Pro';
+  height: 50px;
+}
+.lista-mais-destaques li a{
+  color: #dd4911;
+  font: 16px 'futura_lightregular';
+  text-decoration: none;
+  width: 200px;
+  float: left;
+  line-height: 21px;
+  transition:0.05s;
+}
+.lista-mais-destaques li a:hover{
+  color: #d99d86;
+  font: 18px 'futura_lightregular';
+  margin-top: -2px;
+  width: 210px;
+  line-height: 20px;
+  transition:0.05s;
+}
+span.saiba-mais{
+  background: url(../imagens/btn-saiba-mais.png) no-repeat;
+  height: 28px;
+  width: 28px;
+  float: right;
+  padding-right: 92px;
+
+}
+.borda{
+  border-bottom: 4px #888888 double;
+}
+/*CSS ULTIMOS-DESTAQUE =========================*/
+.lista-ultimos-destaque li a{
+  color: #dd4911;
+  font: 16px 'futura_lightregular';
+  text-decoration: none;
+  width: 200px;
+  float: left;
+  line-height: 21px;
+  transition:0.05s;
+}
+.lista-ultimos-destaque li a:hover{
+  color: #d99d86;
+  font: 18px 'futura_lightregular';
+  margin-top: -2px;
+  width: 210px;
+  line-height: 20px;
+  transition:0.05s;
+}
+
+
+.lista-ultimos-destaque li{
+  display: inline;
+  float: left;
+  width: 221px;
+  text-align: center;
+  padding: 80px 19px 0px 0px;
+}
+.lista-ultimos-destaque li p{
+  font: 21px/30px 'futura_lightregular';
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.lista-ultimos-destaque h3{
+  font: 32px 'futura_lightregular';
+  color: #000000;
+}
+.lista-ultimos-destaque h3 span{
+  font: 32px 'futuraextendedregular';
+  color: #000000;
+}
+/*CSS FOOTER =========================*/
